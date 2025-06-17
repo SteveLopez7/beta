@@ -7,7 +7,7 @@ Dev: Steve López
 
 data1 = 10
 data2 = 3,50
-data3 = 'Steve'
+data3 = 'Steve l'
 data4 = 'lopez'
 data5 = ''' Hello people, we are learning Python. That´s wonderful. '''
 data6 = True
