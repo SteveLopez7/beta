@@ -46,9 +46,15 @@ def calc3(x, y, z):
     elif (z == '3'):
         ans = x * y
     elif (z == '4'):
-        ans = x / y
+        if y == 0:
+            ans = "error"
+        else:    
+            ans = x / y
     else:
-        ans = (x + y,x - y,x * y, x / y)
+        if y == 0:
+            ans = "error"
+        else:        
+            ans = (x + y,x - y,x * y, x / y)
     return ans                            
 ####Main#################
 num1 = float(input('Press first number:'))
