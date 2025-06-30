@@ -1,6 +1,6 @@
 '''
 Dev: Steve López
-Fecha: 30-jun-2025
+Fecha: 29-junio-2025
 Script: Simular reporte financiero para 5 clientes
 '''
 import random  
