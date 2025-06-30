@@ -5,7 +5,7 @@ Script: Simular reporte financiero para 5 clientes
 '''
 import random  
 
-print("   BIENVENIDO AL SISTEMA FINANSMART")
+print("BIENVENIDO AL SISTEMA FINANSMART")
 
 for i in range(5):
     print("\nCLIENTE #" + str(i + 1)) 
@@ -21,7 +21,7 @@ for i in range(5):
     ingreso = random.randint(1000000, 8000000)
     balance = ingreso - gastos
 
-    print("\n------ REPORTE DEL CLIENTE ------")
+    print("\n REPORTE DEL CLIENTE ")
     print(f"Nombre     : {nombre}")
     print(f"Cédula     : {cedula}")
     print(f"Edad       : {edad} años")
@@ -31,7 +31,6 @@ for i in range(5):
     print(f"Ingreso    : {ingreso}")
     print(f"Gastos     : {gastos}")
     print(f"Balance    : {balance}")
-    print("----------------------")
-
+    
 print("\nREPORTE FINALIZADO PARA 5 CLIENTES")
 print("Gracias por usar FinanSmart.")
