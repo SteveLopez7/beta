@@ -1,7 +1,7 @@
 '''
 Dev: Steve López
 Fecha: 29-junio-2025
-Script: Simular reporte financiero para 5 clientes
+Script: Reporte financiero para 5 clientes
 '''
 import random  
 
@@ -31,6 +31,6 @@ for i in range(5):
     print(f"Ingreso    : {ingreso}")
     print(f"Gastos     : {gastos}")
     print(f"Balance    : {balance}")
-    
+
 print("\nREPORTE FINALIZADO PARA 5 CLIENTES")
 print("Gracias por usar FinanSmart.")
