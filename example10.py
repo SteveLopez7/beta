@@ -11,7 +11,7 @@ while True:
     print(f"Dice 1: {d1}")
     print(f"Dice 2: {d2}")
     print("\n")
-    i+=1
+    i += 1
 
     status_try_again = True
     while status_try_again:
@@ -21,8 +21,5 @@ while True:
         else:
             print("Invalide option, please press y/Y/n/N")    
 
-    if try_again == 'n' or 'N':
-        break
-
-    
-
+    if try_again == 'n' or try_again == 'N':  
+            break
