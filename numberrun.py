@@ -33,7 +33,6 @@ nivel = int(input("Selecciona el nivel (1 al 4): "))
 while nivel < 1 or nivel > 4:  
     nivel = int(input("Error. Selecciona un nivel válido (1 al 4): "))  
 
-
 if nivel == '1':
     meta = 20
 elif nivel == '2':
